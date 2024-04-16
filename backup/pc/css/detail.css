@@ -1,0 +1,1025 @@
+.display_custom0 {
+    display: none;
+}
+
+.xans-product-detail {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.xans-product-detail:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.xans-product-detail .imgArea {
+    position: relative;
+    width: 40%;
+    float: left;
+}
+.xans-product-detail .detailArea {
+    position: relative;
+    width: 54%;
+    float: right;
+}
+
+@media (min-width: 0px) and (max-width: 1440px) {
+    .xans-product-detail .imgArea {
+        position: relative;
+        width: 49%;
+        float: left;
+    }
+    .xans-product-detail .detailArea {
+        position: relative;
+        width: 46%;
+        float: right;
+    }
+}
+
+/* headingArea */
+.xans-product-detail .headingArea {
+    position: relative;
+    padding: 0 0 10px;
+    margin: 0 0 15px;
+    line-height: 24px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.xans-product-detail .headingArea h2 {
+    display: inline;
+    font-size: 14px;
+    color: #2e2e2e;
+}
+.xans-product-detail .headingArea .icon img {
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+.xans-product-detail .headingArea .icon .icon_img {
+    margin: 0;
+}
+.xans-product-detail .headingArea .supply {
+    overflow: hidden;
+    float: right;
+}
+.xans-product-detail .headingArea .supply span {
+    padding: 0 3px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.xans-product-detail .imgArea .keyImg {
+    width: 100%;
+}
+.xans-product-detail .imgArea .thumbnail {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.xans-product-detail .imgArea .thumbnail img.thmubs {
+    width: 100%;
+}
+#zoomMouseGiude {
+    display: none !important;
+} /* 마우스를 올려보세요 */
+
+.xans-product-detail .product_info {
+    padding-bottom: 30px;
+}
+.xans-product-detail .product_info .icon img {
+    max-height: 12px;
+    margin: 0 4px 2px;
+}
+.xans-product-detail .product_info .about1 {
+    color: #999 !important;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+.xans-product-detail .product_info li.name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.xans-product-detail .product_info li.price {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.xans-product-detail .product_info li.price .sale2 {
+    display: block;
+}
+.xans-product-detail .product_info li.sale {
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    background: #fff;
+    z-index: 10;
+    vertical-align: top;
+}
+.xans-product-detail .product_info li.sale * {
+    vertical-align: top;
+}
+.xans-product-detail .product_info li.about {
+    margin-top: 20px;
+}
+.xans-product-detail .product_info li.about pre {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+/* infoArea */
+.xans-product-detail .infoArea p.delivery {
+    padding: 10px 0 20px;
+}
+.xans-product-detail .infoArea .guideArea {
+    overflow: hidden;
+    margin: 5px 0 0;
+    padding: 8px 11px 0;
+}
+.xans-product-detail .infoArea .guideArea:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.xans-product-detail .infoArea .guideArea .info {
+    float: left;
+    color: #757575;
+}
+.xans-product-detail .infoArea .guideArea .sizeGuide {
+    float: right;
+}
+.xans-product-detail .infoArea .sizeGuide a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 120px;
+    line-height: 32px;
+    background: #ddd;
+    color: #555;
+    text-align: center;
+}
+.xans-product-detail .infoArea .sizeGuide a:hover {
+    text-decoration: none;
+}
+
+.xans-product-detail .infoArea table {
+    border: 0;
+    margin: 10px 0 0;
+}
+.xans-product-detail .infoArea th {
+    font-weight: normal;
+    width: 150px;
+    padding: 7px 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+.xans-product-detail .infoArea td {
+    padding: 7px 0;
+    vertical-align: middle;
+}
+.xans-product-detail .infoArea img {
+    vertical-align: middle;
+}
+.xans-product-detail .infoArea td input[type='text'] {
+    width: 80%;
+}
+.xans-product-detail .infoArea select {
+    height: 28px;
+    width: 100%;
+    line-height: 28px;
+    font-size: 12px;
+    border-color: #444;
+    color: #222;
+    padding-left: 5px; /*box-sizing:border-box; */
+}
+.xans-product-detail .infoArea td #delivery_cost_prepaid {
+    margin: 0 0 5px;
+}
+.xans-product-detail .infoArea td .sale {
+    text-decoration: line-through;
+}
+.xans-product-detail .infoArea td .period {
+    display: block;
+    margin: 7px 0 0;
+    font-size: 11px;
+}
+.xans-product-detail .infoArea td .mileage li {
+    line-height: 1.7em;
+}
+.xans-product-detail .infoArea td .delivery label {
+    margin: 0 30px 0 0;
+}
+.xans-product-detail .infoArea td img.qrcode {
+    border: 1px solid #e1e1e1;
+}
+.xans-product-detail .infoArea td #span_product_price_text {
+    font-weight: normal;
+}
+.xans-product-detail .infoArea td #span_product_coupon_dc_price {
+    color: #070705;
+}
+.xans-product-detail .infoArea td.fileInfo {
+    color: #757575;
+}
+.xans-product-detail .infoArea td.fileInfo input {
+    width: 288px;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 6px;
+}
+.xans-product-detail .infoArea td.fileInfo .infoDesc {
+    margin: 0 0 10px 0;
+}
+.xans-product-detail .infoArea td.fileInfo li {
+    color: #999;
+    font-size: 11px;
+    line-height: 18px;
+}
+.xans-product-detail .infoArea td.fileInfo li img {
+    vertical-align: bottom;
+}
+.xans-product-detail .delv_price_B strong {
+    font-weight: normal;
+}
+.xans-product-detail .btnTooltip {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    vertical-align: middle;
+}
+
+.xans-product-detail .infoArea .xans-product-option {
+    margin-bottom: 20px;
+}
+.xans-product-detail .infoArea .xans-product-option tr th {
+    vertical-align: top;
+}
+.xans-product-detail .infoArea .xans-product-option tr td {
+    padding: 4px 10px 4px 0;
+}
+.xans-product-detail .infoArea .xans-product-option tr:first-child th,
+.xans-product-detail .infoArea .xans-product-option .xans-product-fileoption th {
+    padding-top: 10px;
+}
+.xans-product-detail .infoArea .xans-product-option tr:first-child td,
+.xans-product-detail .infoArea .xans-product-option .xans-product-fileoption td {
+    padding-top: 5px;
+}
+.xans-product-detail .infoArea .xans-product-option td.selectButton {
+    text-align: right;
+}
+
+/* 상품옵션 - 텍스트 */
+.xans-product-detail .infoArea .xans-product-option .value {
+    word-break: break-all;
+}
+.xans-product-detail .infoArea .xans-product-option .value .ec-product-value {
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button li {
+    position: relative;
+    overflow: hidden;
+    min-width: 26px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0 8px 3px 0;
+    vertical-align: top;
+    border: 1px solid #444;
+    background: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    *display: inline;
+    *zoom: 1;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button li:last-child {
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button li a {
+    display: block;
+    min-width: 26px;
+    text-align: center;
+    text-decoration: none;
+    word-break: break-all;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    transition: all 0s;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button li a span {
+    display: inline-block;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 상품옵션 - 미리보기 */
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li {
+    padding: 1px;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li a {
+    min-width: 26px;
+    width: 26px;
+    height: 24px;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview li a span {
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    text-indent: 120%;
+    white-space: nowrap;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview .ec-product-soldout span,
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview .ec-product-disabled span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button.ec-product-preview .ec-product-soldout span {
+    background: url('//img.echosting.cafe24.com/skin/base/product/soldout_bg.png') repeat;
+}
+
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-soldout {
+    opacity: 0.2;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-soldout a span {
+    cursor: not-allowed;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-soldout.ec-product-selected {
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-disabled a {
+    cursor: default;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-disabled a span {
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-selected {
+    border: 2px solid #444;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-button .ec-product-selected a {
+    margin: -1px;
+    color: #222;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-radio > li {
+    display: inline-block;
+    margin: 0 0 3px;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-radio label {
+    margin: 0 7px 0 0;
+    cursor: pointer;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-radio label input {
+    margin: 0 2px 0 0;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-radio .ec-product-disabled {
+    cursor: pointer;
+}
+.xans-product-detail .infoArea .xans-product-option .ec-product-radio .ec-product-soldout {
+    color: #d7d7d7;
+}
+
+/* 구매버튼 */
+.xans-product-detail .infoArea .xans-product-action .buy_wrap {
+    padding: 0px 0 0px;
+    line-height: 50px;
+    margin-bottom: 8px;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a {
+    display: block;
+    border: 1px solid #000;
+    color: #000;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+    float: left;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a:hover {
+    background: #f1f1f1;
+    color: #999;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a.left {
+    background: #000;
+    color: #fff;
+    width: 60%;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a.left:hover {
+    background: #555;
+    border-color: #555;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a.center {
+    width: 32%;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a.right {
+    width: 8%;
+    border-left: 0px;
+    height: 52px;
+}
+.xans-product-detail .infoArea .xans-product-action .buy_wrap a.right img {
+    margin-top: 15px;
+}
+
+#NaverChk_Button {
+    clear: both;
+    margin: px 0 0;
+    text-align: center;
+}
+.btn_slod,
+.btn_sizeguide a {
+    display: block;
+    border: 1px solid #ccc;
+    color: #999;
+    text-align: center;
+    line-height: 40px;
+}
+
+#checkoutContainer .__checkout_buy_container,
+#checkoutContainer.__checkout_buy_container {
+    width: 100% !important;
+    margin-bottom: 8px;
+}
+#checkoutContainer.__checkout_sdk_container .__checkout_buy_notice {
+    display: none !important;
+    border: 0 !important;
+}
+#checkoutContainer .__checkout_buy_container,
+#checkoutContainer.__checkout_buy_container {
+    border: 0 !important;
+}
+#NaverChk_Button .npay_type_A_2 {
+    width: auto !important;
+    max-width: 285 !important;
+    height: auto !important;
+}
+#NaverChk_Button .npay_type_MA_1 {
+    width: auto !important;
+    max-width: 285 !important;
+    height: auto !important;
+}
+#NPAY_EVENT_ID {
+    display: none !important;
+}
+#checkoutContainer .__checkout_buy_container .__checkout_buy_contents .__checkout_btn_buy,
+#checkoutContainer.__checkout_buy_container .__checkout_buy_contents .__checkout_btn_buy {
+    margin-left: 20px !important;
+}
+#NPAY_BUTTON_BOX_ID {
+    border-top: 0 !important;
+}
+#checkoutContainer {
+    width: 99%;
+    margin: 0 auto;
+}
+#checkoutContainer.__checkout_btn_buy {
+    width: 220px !important;
+}
+
+/* eventArea */
+.xans-product-detail .eventArea {
+}
+.xans-product-detail .eventArea h3 {
+    padding: 0 0 0 9px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 12px;
+    color: #008bcc;
+    line-height: 39px;
+}
+.xans-product-detail .eventArea .event {
+    padding: 27px 10px 46px 9px;
+    line-height: 18px;
+}
+
+/* xans-myshop-benefit */
+.xans-myshop-asyncbenefit {
+    margin: 30px 0;
+}
+.xans-myshop-asyncbenefit .member {
+    margin: 2px 0 19px;
+}
+.xans-myshop-asyncbenefit .member em {
+    font-style: normal;
+}
+
+#divNvPointInfo {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 245px;
+    padding: 10px;
+    color: #777;
+    background: #fff;
+    border: 1px solid #5b9761;
+}
+#divNvPointInfo a {
+    display: block;
+    padding: 5px 0 0;
+    color: #1ec228;
+}
+#divNvPointInfo a img {
+    vertical-align: middle;
+}
+#imgNaverMileageHelp {
+    cursor: pointer;
+}
+
+/* 수량 */
+.ec-base-desc.quantity {
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid #ddd;
+}
+.ec-base-desc.quantity dt {
+    width: 125px;
+    padding: 0 0 0 8px;
+}
+
+/* 총 상품 */
+#totalProducts {
+    margin: 0px 0 0;
+}
+#totalProducts table {
+    margin: 0;
+}
+#totalProducts table .left {
+    text-align: left;
+}
+#totalProducts table .center {
+    text-align: center;
+}
+#totalProducts table .right {
+    padding-right: 9px;
+    text-align: right;
+    color: #999;
+    font-size: 12px;
+}
+#totalProducts thead th {
+    height: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+#totalProducts tbody th {
+    vertical-align: middle;
+}
+#totalProducts tbody td {
+    padding: 9px 0;
+    border-top: 1px solid #ddd;
+    line-height: 18px;
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#totalProducts tbody tr td:first-child {
+    padding-left: 4px;
+}
+#totalProducts tbody tr:first-child td {
+    border-top: 1px solid #000;
+}
+#totalProducts tbody tr:last-child td {
+    border-bottom: 1px solid #000;
+}
+#totalProducts tbody td p {
+    padding: 0 10px 0 0;
+    line-height: 21px;
+}
+#totalProducts tbody td p.product span {
+    font-weight: normal;
+    color: #999;
+    line-height: 18px;
+}
+#totalProducts tbody td p.product span.soldOut {
+}
+#totalProducts tbody td img {
+    vertical-align: middle;
+}
+#totalProducts tbody td .quantity {
+    display: inline-block;
+    position: relative;
+    width: 50px !important;
+    vertical-align: top;
+}
+#totalProducts tbody td .quantity input {
+    width: 22px;
+    height: 23px;
+    padding: 0 2px 0 3px;
+    line-height: 23px;
+    border: 1px solid #d4d8d9;
+    color: #999 !important;
+    border-radius: 3px 0 0 3px;
+}
+#totalProducts tbody td .quantity .up {
+    position: absolute;
+    left: 28px;
+    top: 0;
+}
+#totalProducts tbody td .quantity .down {
+    position: absolute;
+    left: 28px;
+    top: 12px;
+}
+#totalProducts tbody.option_products tr td .quantity input,
+#totalProducts tbody.add_products tr td .quantity input {
+    height: 19px;
+    line-height: 19px;
+}
+#totalProducts tbody.option_products tr td .quantity .down,
+#totalProducts tbody.add_products tr td .quantity .down {
+    bottom: 0;
+    top: auto;
+}
+#totalProducts tbody td .mileage {
+    display: block;
+    white-space: nowrap;
+}
+#totalProducts tbody td .mileage_price {
+}
+
+/* 총 상품 금액 */
+.totalPrice {
+    position: relative;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 30px 0 20px;
+}
+.totalPrice b {
+    font-weight: 500;
+}
+.totalPrice b strong {
+}
+.totalPrice em {
+    font-style: normal !important;
+}
+
+/* 배송비 차등부과 레이어 */
+.differentialShipping {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 17px;
+    z-index: 100;
+    width: 350px;
+    margin: 0 0 0 -176px;
+}
+.differentialShipping h3.title {
+    height: 35px;
+    padding: 0 35px 0 19px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    background: #495164;
+}
+.differentialShipping .content {
+    padding: 12px 18px 14px 18px;
+    border: 1px solid #757575;
+    border-top: 0;
+    text-align: center;
+    background: #fff;
+}
+.differentialShipping .close {
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}
+.differentialShipping .close img {
+    cursor: pointer;
+}
+
+.differentialShipping .content ul {
+    color: #757575;
+    line-height: 25px;
+}
+.differentialShipping .content li {
+    overflow: hidden;
+}
+.differentialShipping .content li strong {
+    float: left;
+    font-weight: normal;
+}
+.differentialShipping .content li span {
+    float: right;
+    color: #2e2e2e;
+}
+.differentialShipping .content .info {
+    margin: 7px 0 0;
+    padding: 7px 0 0;
+    border-top: 1px dotted #b0b1b3;
+    color: #80aeef;
+    text-align: right;
+}
+
+/* 배송비레이어 */
+.xans-product-detail .shippingFee {
+    position: relative;
+    display: inline-block;
+}
+.xans-product-detail .shippingFee .ec-base-tooltip {
+    margin: 0 0 0 -180px;
+    width: 360px;
+}
+.xans-product-detail .shippingFee .ec-base-tooltip table th {
+    width: 40px;
+}
+.xans-product-detail .shippingFee .ec-base-tooltip table th,
+.xans-product-detail .shippingFee .ec-base-tooltip table td {
+    padding: 7px 10px 8px 10px;
+}
+
+/* 회원등급별 할인가 적용 */
+.xans-product-detail .infoArea td > span > ul.discountMember > li {
+    position: relative;
+    float: left;
+}
+.xans-product-detail .infoArea td ul.discountMember li a {
+    display: block;
+    margin: 0 4px 4px 0;
+}
+.xans-product-detail .infoArea td ul li .discount_layer h3 {
+    margin: 0 0 8px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-bottom: 0;
+}
+.xans-product-detail .infoArea td ul li .discount_layer {
+    display: block;
+    left: -140px;
+    min-width: 300px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer .content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 400px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer thead th {
+    padding: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 0 1px 0 1px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer tbody th {
+    width: auto;
+}
+
+/* 세트상품 추가정보 레이어 */
+.xans-product-detail .productSet .product {
+    position: relative;
+}
+.xans-product-detail .productSet .description {
+    z-index: 10;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    padding: 7px 0 0;
+}
+.xans-product-detail .productSet .description .xans-product-detail {
+    position: relative;
+    padding: 15px;
+    border: 1px solid #565960;
+    background: #fff;
+}
+.xans-product-detail .productSet .description > h3 {
+    margin: 0 0 8px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-bottom: 0;
+    background: url('//img.echosting.cafe24.com/skin/base/common/ico_layer_title.gif') no-repeat 0 50%;
+}
+.xans-product-detail .productSet .description p strong {
+    color: #0088d4;
+}
+.xans-product-detail .productSet .description thead th {
+    padding: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.xans-product-detail .productSet .description tbody {
+    border: 1px solid #d7d5d6;
+}
+.xans-product-detail .productSet .description th,
+.xans-product-detail .productSet .description tr:first-child th,
+.xans-product-detail .productSet .description tr:first-child td {
+    background: #fbf9fa;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    color: #363636;
+}
+.xans-product-detail .productSet .description th,
+.xans-product-detail .productSet .description td {
+    height: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.xans-product-detail .productSet .description td,
+.xans-product-detail .productSet .description tr:first-child td {
+    padding: 5px 8px;
+    text-align: left;
+    background: #fff;
+}
+.xans-product-detail .productSet .description tr:last-of-type th,
+.xans-product-detail .productSet .description tr:last-of-type td {
+    border-bottom: 0;
+}
+.xans-product-detail .productSet .description .color td {
+    font-size: 0;
+    line-height: 0;
+}
+.xans-product-detail .productSet .description .chips {
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    margin: 0 2px 3px 0;
+    border: 1px solid #e3e3e3;
+}
+.xans-product-detail .productSet .description .btnClose {
+    background: transparent;
+}
+.xans-product-detail .productSet .description > .ec-base-tooltip {
+    display: block;
+    top: 0;
+}
+.xans-product-detail .productSet .description > .ec-base-tooltip > .edge {
+    z-index: 20;
+    position: absolute;
+    left: auto;
+    right: 40px;
+    display: block;
+    margin: 0 0 0 -5px;
+    width: 9px;
+    height: 6px;
+    background: url('//img.echosting.cafe24.com/skin/base/common/ico_option_arrow.gif') no-repeat 0 0;
+}
+
+/* 정기배송 */
+.xans-product-detail .infoArea .regularDelivery {
+    margin: 20px 0 0;
+    border-top: 1px solid #e8e8e8;
+}
+.xans-product-detail .infoArea .regularDelivery th {
+    vertical-align: top;
+}
+.xans-product-detail .infoArea .regularDelivery .gLabel {
+    position: relative;
+    margin: 0 35px 0 0;
+}
+.xans-product-detail .infoArea .regularDelivery .badge {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    height: 18px;
+    margin: 0 0 0 5px;
+    padding: 0 8px;
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 12px;
+    font-family: '돋움', 'Dotum';
+    color: #fff;
+    background-color: #009ffa;
+}
+.xans-product-detail .infoArea .regularDelivery .badge .icoDown {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    overflow: hidden;
+    width: 8px;
+    height: 12px;
+    border-radius: 50%;
+    line-height: 10px;
+    text-indent: -9999px;
+}
+.xans-product-detail .infoArea .regularDelivery .badge .icoDown:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+}
+.xans-product-detail .infoArea .regularDelivery .badge .icoDown:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+}
+.xans-product-detail .infoArea .regularDelivery .info {
+    margin: 14px 0 0;
+}
+.xans-product-detail .infoArea .regularDelivery .info ul {
+    margin: 6px 0 0;
+}
+.xans-product-detail .infoArea .regularDelivery .info ul > li {
+    margin: 4px 0;
+    letter-spacing: -0.8px;
+}
+.xans-product-detail .infoArea .regularDelivery .info .icoSave {
+    display: inline-block;
+    height: 12px;
+    padding: 0 2px;
+    border: 1px solid #ff5454;
+    border-radius: 3px;
+    line-height: 12px;
+    color: #ff5454;
+}
+.xans-product-detail .infoArea .regularDelivery .info .icoDown {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 5px;
+    height: 10px;
+    margin: 0 0 0 2px;
+    line-height: 10px;
+    text-indent: -9999px;
+}
+.xans-product-detail .infoArea .regularDelivery .info .icoDown:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 1px;
+    height: 10px;
+    background-color: #ff5454;
+}
+.xans-product-detail .infoArea .regularDelivery .info .icoDown:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+    left: -2px;
+    padding: 4px;
+    border: solid #ff5454;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.Tab {
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.Tab ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.Tab li {
+    display: block;
+    width: 25%;
+    float: left;
+    margin-left: -1px;
+}
+.Tab li a {
+    display: block;
+    border-right: 0;
+    line-height: 40px;
+    display: block;
+}
+.Tab li:last-child a {
+}
+.Tab li a:hover {
+    color: #ccc;
+}
+.Tab li.selected a {
+    border-bottom: 1px solid #fff;
+}
+
+.guide_inner {
+    border: 1px solid #000;
+    border-bottom: 0;
+}
+.guide_inner li.inner {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 60px;
+}
+.guide_inner li.title {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 13px;
+}
