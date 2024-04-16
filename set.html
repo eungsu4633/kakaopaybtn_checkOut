@@ -1,0 +1,70 @@
+
+id 유실
+<!--톡 체크아웃 버튼-->
+<div id="appPaymentButtonBox"></div>  
+<!--//톡 체크아웃 버튼-->
+
+일반적
+<!--톡 체크아웃 버튼-->
+<div id="{$app_payment_button_box_id}"></div>
+<!--//톡 체크아웃 버튼-->
+
+        <!--톡 체크아웃 버튼-->
+        <div id="{$app_payment_button_box_id}" style="margin: 10px 0 0;"></div>
+        <!--//톡 체크아웃 버튼-->
+        <div id="{$NaverChk_Button}" style="margin: 10px 0 0;"></div>
+        
+        detail_right_option 에서
+        @media (max-width:1024px) { #appPaymentButtonBox, #NaverChk_Button { float:none; } } 
+        
+위는 CSS에서 안먹힐 때
+        <!--톡 체크아웃 버튼-->
+        <div id="appPaymentButtonBox" style="text-align: right !important;"></div>
+        <!--//톡 체크아웃 버튼-->
+또 안먹히면 위
+
+<!--톡 체크아웃 버튼-->
+<div id="{$app_payment_button_box_id}" style="margin-top: 10px;"></div>
+<!--//톡 체크아웃 버튼-->
+
+<style>
+
+/* 카카오 페이구매 버튼 */
+#appPaymentButtonBox { margin : 10px 0 0; } 
+
+
+/* 옵션 레이어 > 카카오 페이구매 버튼 */
+#product_detail_option_layer 
+#appPaymentButtonBox { margin : 14px 0 15px; } 
+
+크기조절
+#checkoutContainer.__checkout_buy_container { width: 236px !important; }
+
+
+/* PC)카카오 페이구매 버튼 width(height) 조정이 필요한 경우 : 값은 자율적으로 수정 */
+#checkoutContainer.__checkout_buy_container { width: 100% !important; }
+
+/* MO)카카오 페이구매 버튼 width(height) 조정이 필요한 경우 : 값은 자율적으로 수정 */
+#checkoutContainer.__checkout_buy_mobile.__checkout_buy_type1 { width: 100% !important; }
+
+/* PC) a 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 공지사항 부분에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_container .__checkout_buy_notice .__checkout_link_notice {}
+
+/* MO) a 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 공지사항 부분에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_mobile .__checkout_buy_notice .__checkout_link_notice {}
+
+/* PC) span 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 공지사항 부분에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_container .__checkout_buy_notice .__checkout_txt_notice {}
+
+/* MO) span 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 공지사항 부분에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_mobile .__checkout_buy_notice .__checkout_txt_notice {}
+
+/* PC) span 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 더보기 버튼에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_container .__checkout_buy_notice .__checkout_link_notice .__checkout_img_more {}
+
+/* mo) span 태그에 적용되어 있는 스타일에 영향 받아 카카오 페이구매 버튼 더보기 버튼에 스타일이 입혀짐  */
+#checkoutContainer.__checkout_buy_mobile .__checkout_buy_notice .__checkout_link_notice .__checkout_img_more {}
+
+
+
+/* KCD_VISIBLE=1  */
